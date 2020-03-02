@@ -3,4 +3,7 @@
 
 
 ## 사용 영상
-usage.mp4 를 참고하시기 바랍니다.
+
+제 블로그를 참고해주십쇼.
+
+https://blog.naver.com/powerapollon/221833652241 
