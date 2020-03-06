@@ -63,7 +63,8 @@ if __name__ == "__main__":
     mailCount = 0
 
     clear()
-    PrintInfo("\n현재 임시 메일 주소 : " + TempMailAddress)
+    PrintInfo("종료하려면 Ctrl-C 를 입력하세요.")
+    PrintInfo("현재 임시 메일 주소 : " + TempMailAddress)
     while True:
         try:
             driver.get(f'https://www.fakemail.net/window/id/{mailCount+1}')
