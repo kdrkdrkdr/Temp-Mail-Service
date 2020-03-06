@@ -1,4 +1,4 @@
-pyinstaller -y -F "temp-mail-service.py"
+pyinstaller -i ms.ico -y -F "temp-mail-service.py"
 
 move dist/temp-mail-service.exe ../
 
@@ -14,6 +14,6 @@ cd ..
 
 rmdir /s /q dist
 
-rem upx -9 temp-mail-service.exe
+REM upx -9 temp-mail-service.exe
 
-exit
+REM exit
